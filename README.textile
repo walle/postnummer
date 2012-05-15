@@ -1,6 +1,6 @@
-h1. Library for looking up swedish zip_codes using posten.se
+h1. Library for looking up swedish zip codes using posten.se
 
-Simple library for parsing streets from posten.se using a zip_code.
+Simple library for parsing streets from posten.se using a zip code.
 
 h2. Usage
 
