@@ -1,0 +1,11 @@
+h1. Library for looking up swedish zip_codes using posten.se
+
+Simple library for parsing streets from posten.se using a zip_code.
+
+h2. Usage
+
+bc. parser = Postnummer::Parser.new('12345')
+streets = parser.parse
+streets.each do |street|
+  p street.name
+end
